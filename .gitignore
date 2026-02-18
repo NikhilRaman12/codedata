@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env/
+
+# Environment variables
+.env
+
+# Development artifacts
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.tmp
