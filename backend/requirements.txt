@@ -1,0 +1,16 @@
+Flask
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+
+# Additional libraries for data science
+scipy
+jupyter
+statsmodels
+pytorch
+tensorflow
+xgboost
+lightgbm
