@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    image: my_web_image:latest
+    rebuild: .
+    ports:
+      - '80:80'
+  database:
+    image: my_database_image:latest
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data: {}
